@@ -7,11 +7,8 @@ export default defineConfig({
     tailwindcss(),
     react({
       babel: {
-        plugins: [["babel-plugin-react-compiler"]],
+        // plugins: [["babel-plugin-react-compiler"]],
       },
     }),
   ],
-  ssr: {
-    noExternal: ["react", "react-dom", "react-server-dom-webpack"],
-  },
 });
