@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import ReactCompilerApp from "./ReactCompilerApp.tsx";
+import ReactCompilerApp from "./App.tsx";
 import "./index.css";
 // import ServerComponentApp from "./ServerComponentApp.tsx";
 
