@@ -1,3 +1,4 @@
+"use server";
 // Server Component - Runs only on the server
 export default async function ServerComponent() {
   const data = await fetch("https://jsonplaceholder.typicode.com/todos/1").then(
